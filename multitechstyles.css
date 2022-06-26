@@ -86,7 +86,8 @@
 
 .nav {
     /*меню (nav)*/
-    display: inline-flex;
+    display: flex;
+    text-decoration: none;
     width: 520px;
     justify-content: space-between;
     position: absolute;
@@ -97,11 +98,7 @@
     font-size: 15px;
     letter-spacing: -3%;
     color: #252525;
-    text-decoration: none;
-}
 
-.nav:hover {
-    text-decoration: underline;
 }
 
 .news,
@@ -114,5 +111,5 @@
     font-family: 'Gotham Pro';
     font-weight: 400;
     font-size: 15px;
-    letter-spacing: -3%;
+    letter-spacing: 1px;
 }
