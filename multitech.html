@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiTech Page</title>
+    <style>
+        #main-img {
+            Width: 984px;
+            Height: 770px;
+            position: absolute;
+            Top: 0px;
+            Left: 520px;
+        }
+
+
+        @font-face {
+            font-family: 'Gotham Pro';
+            src: url(./fonts/Gotham\ Pro\ Medium.ttf);
+        }
+
+        #logo1 {
+            position: absolute;
+            left: 120px;
+            top: 20px;
+            font-family: 'Gotham Pro';
+            font-weight: 400;
+            font-size: 32px;
+            color: #252525;
+        }
+
+        .colortext1 {
+            color: #252525;
+        }
+
+        .colortext {
+            color: #5364ff
+        }
+
+        #logo {
+            font-family: NeueMachina;
+            font-weight: bold;
+            font-size: 160px;
+            color: #252525;
+            position: absolute;
+            left: 120px;
+            top: 80px;
+        }
+
+
+
+        @font-face {
+            font-family: 'NeueMachina';
+            src: url(./fonts/NeueMachina-Bold.ttf);
+        }
+
+
+        .container {
+            /*подпісі под главным логотипом*/
+            display: inline-flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            position: absolute;
+            left: 120px;
+            top: 440px;
+            width: 285px;
+            font-family: 'Gotham Pro';
+            font-weight: 400;
+            font-size: 20px;
+            color: #252525;
+        }
+
+
+
+        #button {
+            /*кнопка*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 1250px;
+            top: 48px;
+            width: 163px;
+            height: 40px;
+            border: 1px solid #5364ff;
+            border-radius: 300px;
+            background-color: #5364ff;
+            font-family: 'Gotham Pro';
+            font-weight: 400;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+
+        .nav {
+            /*меню (nav)*/
+            display: inline-flex;
+            width: 520px;
+            justify-content: space-between;
+            position: absolute;
+            left: 700px;
+            top: 60px;
+            font-family: 'Gotham Pro';
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: -3%;
+            color: #252525;
+            text-decoration: none;
+        }
+
+        .nav:hover {
+            text-decoration: underline;
+        }
+
+        .news,
+        .servis,
+        .portfolio,
+        .lido,
+        .contact {
+            text-decoration: none;
+            color: #252525;
+            font-family: 'Gotham Pro';
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: -3%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <p class=container1>
+        <p id="logo1">multi<span class="colortext">Tech</span></p>
+        </p>
+
+    </header>
+    <main>
+
+
+
+        <nav class="nav">
+            <a class="news" href="news.html">Новости</a>
+            <a class="servis" href="servis.html">Услуги</a>
+            <a class="portfolio" href="portfolio.html">Портфолио</a>
+            <a class="lido" href="lido.html">Лидогенерация</a>
+            <a class="contact" href="contact.html">Контакты</a>
+
+        </nav>
+
+        <button id="button">Обсудить проект</button>
+
+        <p id="logo">Multi<span class="colortext">Tech</span></p>
+        <div class="container">
+            <div id="deals">разработка сайтов</div>
+            <div id="deals1"> digital</div>
+        </div>
+
+
+        <img id="main-img" src="main-img.png" alt="print" /> <br>
+
+        <p></p>
+
+        <p></p>
+    </main>
+
+
+</body>
+
+</html>
