@@ -87,18 +87,11 @@
 .nav {
     /*меню (nav)*/
     display: flex;
-    text-decoration: none;
     width: 520px;
     justify-content: space-between;
     position: absolute;
     left: 700px;
     top: 60px;
-    font-family: 'Gotham Pro';
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: -3%;
-    color: #252525;
-
 }
 
 .news,
@@ -111,5 +104,9 @@
     font-family: 'Gotham Pro';
     font-weight: 400;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0, 5px;
+}
+
+a.nav:hover {
+    text-decoration: underline;
 }
